@@ -1,0 +1,70 @@
+
+    .form-login {
+        margin: auto;
+        width: 600px;
+        height: 700px;
+        background-color: lightcyan;
+        align-items: center;
+        border-radius: 15px;
+    }
+    fieldset {
+        border: 2px solid rgb(1, 99, 26);
+        width: 410px;
+        border-radius: 10px;
+        margin: auto;
+    }
+
+    legend {
+        padding:0 10px;
+        margin-bottom: -15px;
+    }
+    fieldset legend h1{
+        color: green;
+    }
+    label.text{
+        font-size:25px;
+    }
+    input.box{
+        border-radius: 5px;
+        font-size: 25px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        width: 500px;
+        height: 35px;
+        background-color:rgb(224, 238, 240);
+        border: none;
+    }
+    input.box:focus{
+        outline: 0;
+        border-radius: 5px;
+        border: 2px solid rgb(15, 150, 15);
+        transform: scale(1.02);
+    }
+    input.pd-lf{
+        padding-left: 10px;
+        font-size: 25px;
+    }
+    input.gender{
+        width: 20px;
+        height: 20px;
+    }
+    input.gender:focus{
+        width: 25px;
+        height: 25px;
+    }
+    input.submit{
+        border-style: outset;
+        border-radius: 5px;
+        border-width: 3px;
+        height: 35px;
+        width: 75px;
+        background-color: rgb(40, 228, 40);
+        border: none;
+        color: white;
+    }
+    input.submit:hover{
+        outline: 0;
+        background-color: green;
+        cursor: pointer;
+
+    }
